@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".report">
+
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/i"
+        android:src="@drawable/t1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Excitement's in the air—your order is en route and gearing up for a grand entrance!"
+        android:textColor="@color/orgn"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/t1"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollHorizontally="true"
+        android:lines="1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b"
+        android:layout_marginTop="550dp"
+        android:text="Logout"
+        android:layout_marginLeft="165dp"
+        />
+
+
+</RelativeLayout>

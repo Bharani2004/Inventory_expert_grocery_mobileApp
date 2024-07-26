@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sandal"
+    tools:context=".lap">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/f1"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/bag"
+        android:id="@+id/i1"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/f1"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:paddingLeft="90dp"
+        android:text="Safari Laptop Bag"
+        android:textColor="@color/orgn"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/f1"
+        android:id="@+id/t1"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="125dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Price : 1700"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f1"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/b1"
+        android:text="Add To Cart"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f1"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="155dp"
+        android:id="@+id/b2"
+        android:text="Reviews"/>
+
+</RelativeLayout>

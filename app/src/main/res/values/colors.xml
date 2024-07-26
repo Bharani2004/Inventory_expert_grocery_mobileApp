@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#1B7593</color>
+    <color name="sandal">#D1C3BA</color>
+    <color name="green">#AFE1AF</color>
+    <color name="org">#FDA172</color>
+    <color name="orgn">#FCA603</color>
+    <color name="grey">#BEBEBE</color>
+    <color name="w">#FBFBF9</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="y">#F2AF13</color>
+
+</resources>

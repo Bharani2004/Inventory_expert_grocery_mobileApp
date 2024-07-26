@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:padding="16dp"
+    android:focusable="true"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:src="@drawable/download"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:text="5"
+        android:textSize="35dp"
+        android:textColor="@color/orgn"
+        android:id="@+id/cartbadge"
+        android:background="@drawable/badge_shape"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="-10dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+</FrameLayout>

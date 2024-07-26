@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="1dp"
+        android:src="@mipmap/qc" />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="410dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="50dp"
+        android:background="@color/green"
+        android:text="Secure your purchase in just a few clicks"
+        android:textAlignment="center"
+        android:textColor="@color/orgn"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Name : "
+        android:id="@+id/t3"
+        android:layout_marginTop="190dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+        <TextView
+            android:layout_marginLeft="155dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text=""
+            android:visibility="visible"
+            android:id="@+id/t4"
+            android:textSize="20dp"
+            android:layout_marginTop="190dp"
+            android:textStyle="bold" />
+    <TextView
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Total : "
+        android:id="@+id/t5"
+        android:layout_marginTop="250dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text=""
+        android:id="@+id/t6"
+        android:textSize="20dp"
+        android:layout_marginTop="250dp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:id="@+id/rg">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gpay"
+            android:textStyle="bold"
+            android:id="@+id/rbs"
+            android:layout_marginLeft="15dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paytm"
+            android:textStyle="bold"
+            android:checked="true"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/rb"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit or Debit Card"
+            android:textStyle="bold"
+            android:id="@+id/rbr"
+            android:layout_marginLeft="15dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash On Delivery"
+            android:textStyle="bold"
+            android:id="@+id/rbc"
+            android:layout_marginLeft="15dp"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b"
+        android:layout_marginTop="550dp"
+        android:text="Complete Payment"
+        android:layout_marginLeft="125dp"
+        />
+
+</RelativeLayout>

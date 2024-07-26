@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/w"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/i"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:layout_below="@+id/img"
+        android:textSize="55dp"
+        android:textStyle="bold"
+        android:paddingLeft="130dp"
+        android:id="@+id/t1"/>
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/black"
+        android:hint="User Name"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="15dp" />
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/e1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingTop="15dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn1"
+        android:backgroundTint="@color/black"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"/>
+
+
+</RelativeLayout>
